@@ -12,7 +12,8 @@ public class Jdbc2Query02 {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe", "hr", "1234");
 		Statement st = con.createStatement();
-//ornek1) bolumler tablosundaki tum tablolari listeleyen  bir sorgu yaziniz
+
+		//ornek1) bolumler tablosundaki tum tablolari listeleyen  bir sorgu yaziniz
 
 		ResultSet tablo1 = st.executeQuery("SELECT * FROM bolumler");
 

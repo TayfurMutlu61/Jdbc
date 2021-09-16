@@ -67,7 +67,7 @@ public class Jdbc3DDL {
 //		st.execute("ALTER TABLE isciler DROP COLUMN maas");
 //		System.out.println("islem tamam");
 		System.out.println("========================================");
-		//ORNEK6:isciler tablosunun adini calisanlar olarak degistiriniz. 
+		//ORNEK5:isciler tablosunun adini calisanlar olarak degistiriniz. 
 		
 		st.executeUpdate("ALTER TABLE isciler RENAME TO calisanlar10");
 		System.out.println("islem tamammmmmmm");
